@@ -7,26 +7,72 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        #container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
         }
 
         h1 {
-            color: #333;
+            color: #007bff;
         }
 
         p {
+            font-size: 1.2em;
+            line-height: 1.6;
             color: #555;
+        }
+
+        .interests {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin: 0 10px;
+            font-size: 1.2em;
+            color: #007bff;
         }
     </style>
 </head>
 <body>
 
-    <h1>こんにちは、私の名前は [あなたの名前] です。</h1>
+    <div id="container">
 
-    <p>趣味は [趣味] で、好きな食べ物は [好きな食べ物] です。また、 [興味や特技など自己紹介に含めたい情報] に興味があります。</p>
+        <h1>こんにちは、私は本間翔です。</h1>
 
-    <p>これは簡単な自己紹介文の例です。興味や趣味、好みに合わせて適宜修正してください。</p>
+        <p>趣味は サウナと漫画を読むことです で、好きな食べ物は ラーメンです です。また、 [興味や特技など自己紹介に含めたい情報] に興味があります。</p>
+
+        <div class="interests">
+            <p>興味があるもの：</p>
+            <ul>
+                <li>私の興味あることの一つ目は食べ歩きです</li>
+                <li>私の興味ああることの二つ目は睡眠です</li>
+                <li>私の興味ある三つ目のことは読書です</li>
+            </ul>
+        </div>
+
+    </div>
 
 </body>
 </html>
